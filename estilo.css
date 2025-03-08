@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+body {
+
+    background-color: #ffffff;
+}
+header {
+
+    background-color:#ffffff00 ;
+
+}
+
+main {
+
+    background-color: #13364ecc;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 250px;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+h1 {
+    
+    color: #ffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+p {
+    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    
+}
+
+div img {
+
+    width: 150px;
+    padding: 10px;
+    padding-left: 20px;
+    
+}
+
+/* Tabela */
+
+
+.pricing-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.plan {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.226);
+}
+.price {
+    font-size: 1.3em;
+    font-weight: bold;
+    font-size: 25px;
+    color: #008cff;
+    margin: 10px 0;
+  
+}
+.features {
+    list-style: none;
+    padding: 0;
+}
+.features li {
+    font-size: 0.9em;
+    padding: 1px 0px;
+    color: #555;
+    font-weight: normal;
+    
+}
+@media (max-width: 768px) {
+    .pricing-table {
+        flex-direction: column;
+        align-items: center;
+    }
+}
